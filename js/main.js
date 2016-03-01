@@ -5,7 +5,6 @@ var adjective = prompt('An adjective (beautiful, super, etc.)');
 var verb = prompt('A past tense verb (ran, burped, etc.)');
 var story = prompt('Which story would you like?\na)Snacking\nb)Escaping\nc)Winning');
 
-
 var colour;
 var creature;
 var adjective;
@@ -31,5 +30,3 @@ if (story == 'a' || story == 'A') {
 } else if (story == 'c' || story == 'C') {
   storyC();
 }
-
-
